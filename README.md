@@ -111,7 +111,7 @@ To make the output pretty, you could pipe the output of that command to jq.
 ## TODOs
 ### API Gateway
 The API gateway works in test mode, but there's more work to do to make it
-trully production ready, like implementing auth and stages. This was best I
+truly production ready, like implementing auth and stages. This was best I
 could do in a few hours.
 
 ### Lambda Function
