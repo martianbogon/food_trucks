@@ -41,12 +41,12 @@ In the bin directory are some shell scripts:
 2. **destroy.sh**: convenience wrapper for terraform destroy
 3. **initial_setup.sh**: set up initial environment, solving a chicken/egg
    problem where the lambda function must first be created
-1. **package_lambda.sh**: packages up the lambda in a zip file and puts it in
+4. **package_lambda.sh**: packages up the lambda in a zip file and puts it in
    dist, where terraform can pick it up
-2. **refresh_data_file.sh**: used to pull the latest data file from San
+5. **refresh_data_file.sh**: used to pull the latest data file from San
    Francisco, and push it to the s3 bucket configured by terraform. Note that
    this queries terraform state to find the bucket.
-3. **s3select_example.sh**: a quick shell script I used while learning to use 
+6. **s3select_example.sh**: a quick shell script I used while learning to use 
    s3select.
 
 ## Dist
